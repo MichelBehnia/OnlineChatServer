@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Chat Server Sign-in Page</title>
+   <link rel = "stylesheet"  type = "text/css" 
+   href = "styles.css" />
+</head>
+<body>
+  <div class="center">
+  <h1 id="statusTitle">Sign into the chat server</h1>
+  <input type = "text"  id="userTextField" name = "userTextField"  placeholder="Enter a username" size = "60"/>
+  <input type="button" id="signInButton" value="connect as">
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src='eventListeners.js'></script>
+  <script src='buttonListeners.js'></script>
+</body>
+</html>

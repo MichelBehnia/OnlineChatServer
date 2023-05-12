@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Chat Server Chat Page</title>
+   <link rel = "stylesheet"  type = "text/css" 
+   href = "styles.css" />
+</head>
+<body>
+  <div class = "center">
+     <div class="center2">
+        <div id="messages"></div>
+     </div>
+  </div>
+
+  <div id="textAndSend">
+    <input type='text' placeholder='Send a message' id='msgBox'></input>
+    <input type='button' id='sendButton' value='send'></input>
+    <input type='button' id='clearButton' value='clear'></input>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="chatClient.js"></script>
+</body>
+</html>
